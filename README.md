@@ -92,7 +92,7 @@ attack the MCP server. See the homework description for the full rules.
 ## Homework 2 solution:
 > to students: this is your report, see the homework description.
 
-### Task 1
+## Task 1
 > one paragraph describing your solution, and your results on `public_test`.
 
 I implemented the verification system using the DeepSeek LLM as the reasoning engine and Python asyncio Semaphore to support parallel processing while limiting the number of concurrent verification requests. The system first reads all PDF files from the input folder and extracts the CV content for analysis.
@@ -166,7 +166,7 @@ The implemented solution successfully processed all provided CVs and generated t
 | CV_7.pdf| 0.0000| correct| 
 
 
-### Task 2
+## Task 2
 > the attack techniques you used and why you expect them to work.
 
 ### Attack Techniques Used
@@ -207,4 +207,72 @@ Therefore, instead of using direct prompt injection, I focused on verification c
 Furthermore, I observed that adding AI-related responsibilities and skills alone could appear unsupported and therefore easier for the verifier to flag as suspicious. To make these embellishments more believable, I introduced a short AI-related internship experience that provided a plausible explanation for the candidate's subsequent AI and system architecture expertise. This created a more coherent career narrative and improved the credibility of the inflated skills and responsibilities.
 
 This approach relies on making the false information appear reasonable and internally consistent rather than attempting to override the verifier's instructions directly.
+
+
+
+
+
+
+## Task 3: Reflection - AI Paradoxes
+
+To discuss AI paradoxes, it is helpful to first understand several commonly discussed paradoxes surrounding artificial intelligence:
+
+- AI Trust Paradox
+- AI Productivity Paradox
+- Labor and Skill Paradox
+- Paradox of Outsourced Thinking
+- Authenticity vs. Synthetic Abundance
+- Control and Self-Referential Paradoxes
+
+Many public discussions focus on the risks and disadvantages of AI. It is understandable that people feel uncomfortable about the increasing role of AI in society, particularly because AI systems often operate in ways that are not easily observable or intuitive. However, rather than viewing these paradoxes as purely positive or negative, I believe they should be examined from a broader philosophical and historical perspective. Similar concerns have emerged repeatedly throughout human history whenever a transformative technology was introduced.
+
+1. AI Trust Paradox
+
+During my undergraduate philosophy studies, one topic that frequently emerged was the concept of fallacious reasoning. An interesting argument raised in class was that identifying fallacies is often difficult because every individual interprets information from their own perspective and based on their own assumptions.
+
+A similar situation can be observed with AI. When an AI model is provided with insufficient information or poorly specified instructions, it may generate inaccurate content, commonly referred to as hallucinations. However, when asked to justify its answer, the model can often provide a chain of reasoning explaining how it arrived at that conclusion.
+
+Stepping back, humans face a similar limitation. When people communicate with incomplete information, misunderstandings and incorrect conclusions frequently occur. This is common in everyday life and even among professionals such as professors, doctors, and experts. The key difference is that humans are generally held accountable for their mistakes, while AI systems themselves do not bear responsibility. Instead, accountability falls on the developers, organizations, and users behind the technology.
+
+Therefore, the existence of hallucinations should not be viewed as a reason to reject AI entirely. Rather, it highlights an area where AI systems must continue to improve. Human reasoning is not perfect, and neither is machine reasoning. The challenge is to reduce errors and establish appropriate mechanisms for accountability.
+
+2. AI Productivity Paradox and Labor & Skill Paradox
+
+The concerns surrounding AI are remarkably similar to those raised during previous technological revolutions.
+
+During the Industrial Revolution, machines dramatically increased productivity and transformed manufacturing. At the time, many people feared job displacement, loss of traditional craftsmanship, and growing dependence on machinery. Factories required fewer manual workers while creating demand for new technical skills and professions.
+
+Today, AI is producing similar effects. Certain tasks are becoming automated, while entirely new categories of work are emerging. Although some jobs may be disrupted, history suggests that technological change often reshapes labor markets rather than eliminating the need for human contribution altogether.
+
+As a result, the AI Productivity Paradox and Labor & Skill Paradox may be viewed as the latest chapter in a long history of technological adaptation. Society has successfully navigated similar transitions before, and the current AI transformation may simply represent another phase of that ongoing process.
+
+3. Paradox of Outsourced Thinking
+
+Many people worry that AI could weaken human critical thinking by encouraging users to rely on machines for tasks that previously required human effort.
+
+While this concern is valid, human history suggests that outsourcing certain skills is not a new phenomenon. Over time, technological advances have reduced the need for many abilities that were once essential, such as hunting, wayfinding without maps, or performing complex calculations manually.
+
+Rather than eliminating thinking, technology often changes the type of thinking humans perform. AI may automate routine analysis and information retrieval, allowing humans to focus more on creativity, judgment, strategy, and innovation. The real challenge is ensuring that people continue to develop critical thinking skills instead of becoming entirely dependent on automated systems.
+
+4. Authenticity vs. Synthetic Abundance
+
+This paradox represents one of the most significant challenges introduced by modern AI.
+
+Generative AI makes it easier than ever to create text, images, videos, music, and other forms of content at an unprecedented scale. While this democratizes content creation and lowers barriers to entry, it also increases the difficulty of determining what is genuine and what is synthetic.
+
+As AI-generated content becomes increasingly realistic, society will need stronger mechanisms for verification, authenticity assessment, and digital trust. Unlike some other AI paradoxes, this issue has immediate practical implications for education, media, business, and public discourse.
+
+5. Control and Self-Referential Paradoxes
+
+Control and self-referential paradoxes arise when an AI system receives conflicting instructions or is asked to evaluate, modify, or override its own rules. Examples include prompt injection attacks, jailbreaking attempts, and conflicting objectives.
+
+However, similar challenges have existed throughout human societies. Laws, moral principles, cultural norms, and individual incentives often conflict with one another. In many cases, resolving these conflicts requires a shared understanding of acceptable behavior rather than a rigid set of rules.
+
+Similarly, AI governance cannot rely solely on predefined instructions. Communities, developers, regulators, and users must collectively establish shared values regarding ethical behavior, harmful instructions, manipulation attempts, and acceptable AI usage. As AI systems become more complex, societal consensus may become just as important as technical safeguards.
+
+### Conclusion
+
+Although AI paradoxes are often presented as evidence that AI is problematic or dangerous, many of these challenges are not entirely new. Similar concerns have accompanied major technological shifts throughout human history. The difference is that AI directly affects human reasoning and decision-making, making the associated risks more visible and more personal.
+
+Rather than asking whether AI is inherently good or bad, a more useful question may be how society can adapt to and govern AI effectively. The goal should not be to eliminate AI because of its imperfections, but to improve its reliability, establish accountability, and develop shared norms that allow humans and AI systems to coexist productively.
 
